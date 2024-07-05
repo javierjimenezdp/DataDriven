@@ -1,28 +1,31 @@
+Sure, here's the README for your Selenium and Python automation project in English:
 
-# Automatización con Selenium y Python
+---
 
-Este proyecto está enfocado en la automatización de pruebas utilizando Selenium WebDriver y Python. Utiliza la metodología Page Object para mejorar la mantenibilidad y reusabilidad del código en la automatización de flujos de trabajo específicos, como el login en una aplicación web.
+# Automation with Selenium and Python
 
-## Autor
+This project focuses on test automation using Selenium WebDriver and Python. It utilizes the Page Object methodology to enhance code maintainability and reusability in automating specific workflows, such as login in a web application.
 
-- **Autor**: Javier Jiménez
-- **Rol**: QA Analyst
-- **Contacto**: 
+## Author
+
+- **Author**: Javier Jiménez
+- **Role**: QA Analyst
+- **Contact**: 
   - Email: [ing.javierdavidjp@gmail.com](mailto:ing.javierdavidjp@gmail.com)
   - LinkedIn: [Javier Jiménez on LinkedIn](https://www.linkedin.com/in/javierjim%C3%A9nez1021/)
 
-## Requisitos del Sistema
+## System Requirements
 
 - Python 3.x
 - Selenium WebDriver
-- Navegador web compatible (por ejemplo, Chrome, Firefox)
+- Compatible web browser (e.g., Chrome, Firefox)
 
-## Instalación
+## Installation
 
-1. **Instalación de Python**:
-   - Descargar e instalar Python desde [python.org](https://www.python.org).
+1. **Install Python**:
+   - Download and install Python from [python.org](https://www.python.org).
 
-2. **Configuración de entorno virtual** (opcional pero recomendado):
+2. **Setup virtual environment** (optional but recommended):
    ```bash
    pip install virtualenv
    virtualenv env
@@ -30,52 +33,52 @@ Este proyecto está enfocado en la automatización de pruebas utilizando Seleniu
    source env/bin/activate  # macOS/Linux
    ```
 
-3. **Instalación de Selenium**:
+3. **Install Selenium**:
    ```bash
    pip install selenium
    ```
 
-4. **Configuración del WebDriver**:
-   - Descargar el WebDriver correspondiente al navegador deseado y asegurarse de que esté en el PATH del sistema.
+4. **WebDriver Setup**:
+   - Download the WebDriver for your desired browser and ensure it's in the system PATH.
 
-## Estructura del Proyecto
+## Project Structure
 
-- **Funciones/funciones.py**: Contiene funciones de utilidad y métodos generales de Selenium.
-- **Excel/Funciones_ex.py**: Funciones específicas para interactuar con archivos Excel.
-- **Functions/Page_login.py**: Implementación de Page Objects para las páginas de login.
-- **LoginQA/ToolsLogin.py**: Archivo principal de pruebas utilizando unittest para ejecutar las pruebas.
+- **Functions/funciones.py**: Contains utility functions and general Selenium methods.
+- **Excel/Funciones_ex.py**: Specific functions for interacting with Excel files.
+- **Functions/Page_login.py**: Implementation of Page Objects for login pages.
+- **LoginQA/ToolsLogin.py**: Main test file using unittest for test execution.
 
-## Automatización y Page Objects
+## Automation and Page Objects
 
-Este proyecto utiliza la metodología Page Object para abstraer la lógica de la interfaz de usuario. Cada página de la aplicación web tiene su propia clase de Page Object, lo que facilita el mantenimiento y la reutilización del código.
+This project employs the Page Object methodology to abstract the UI logic. Each web page of the application has its own Page Object class, facilitating easier maintenance and code reuse.
 
-## Uso de Data-Driven Testing
+## Data-Driven Testing
 
-Se emplea Data-Driven Testing para ejecutar pruebas con diferentes conjuntos de datos, utilizando archivos Excel para almacenar los datos de prueba.
+Data-Driven Testing is utilized to execute tests with different datasets, using Excel files to store test data.
 
-## Ejecución de Pruebas
+## Running Tests
 
-Para ejecutar las pruebas, utiliza `unittest`:
+To run the tests, use `unittest`:
 
 ```bash
 python -m unittest LoginQA.ToolsLogin
 ```
 
-## Contribución
+## Contributing
 
-Si deseas contribuir a este proyecto, sigue estos pasos:
+If you wish to contribute to this project, follow these steps:
 
-1. Fork el repositorio y clónalo localmente.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Agrega nueva funcionalidad'`).
-4. Push a la rama (`git push origin feature/nueva-funcionalidad`).
-5. Crea un nuevo Pull Request.
+1. Fork the repository and clone it locally.
+2. Create a new branch (`git checkout -b feature/new-feature`).
+3. Make your changes and commit (`git commit -am 'Add new feature'`).
+4. Push the branch (`git push origin feature/new-feature`).
+5. Create a new Pull Request.
 
-## Problemas Conocidos
+## Known Issues
 
-- Problemas comunes encontrados durante el desarrollo y ejecución de pruebas.
-- Soluciones recomendadas para resolver problemas técnicos específicos.
+- Common issues encountered during development and test execution.
+- Recommended solutions to address specific technical challenges.
 
-## Licencia
+## License
 
-Este proyecto se distribuye bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
